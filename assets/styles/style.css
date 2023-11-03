@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(./assets/fonts/Lato-BoldItalic.ttf);
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+}
+.all_paragraph{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+.all_h1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.all_h2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+    text-align: center;
+}
+.links_all {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+body {
+    background-color: #eee9d4;
+    /* background-image: url(images/Background_19742.jpg); */
+}
+.title {
+    color: #9e50ae;
+    font-size: 28px;
+    line-height: 36px; /* высота строки */
+    font-weight: bold; /* размер жирности шрифта */
+    text-align: center; /* расположение текста */
+    letter-spacing: 10px; /* межбуквенный интервал */
+    font-style: italic; /* стиль написания (сейчас курсив) */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* шрифт */
+}
+.text {
+    background-color: rgb(215, 38, 29);
+}
+.index_box_wraper {
+    display: flex;
+    justify-content: space-evenly;
+}
+.index_images {
+    width: 300px;
+    height: 450px;
+}
+.catalog_title {
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+}
+.catalog_box_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+.catalog_item {
+    height: 400px;
+    width: 400px;
+    margin: 15px;
+    padding: 15px;
+    border-color: rgba(202, 202, 202, 0.631);
+    border-style:double;
+    border-width: 10px;
+    
+}
+.catalog_image { 
+    float: right; 
+    margin: 0px 0px 0px 15px; 
+    width: 200px;
+    height: 300px;
+    border-radius: 10px; /* закругление краев */
+}
+.catalog_end_item {
+    clear: both
+}
+.forma_input_area {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #c1bfbf;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.forma_button {
+    /* width: 100px;
+    height: 30px; */
+    padding: 5px; /* лучше так размер кнопки выбирать */
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer; /* при наведении меняется курсор */
+}
+.forma_button:hover { /* псевдо класс:при наведении произойдет событие */
+    background-color: #9e50ae;
+}
